@@ -340,3 +340,11 @@ main::before {
     max-width: 100%;
   }
 }
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .pricing .pricing-header {
+    padding: 4rem 1rem;
+    height: auto;
+  }
+}
